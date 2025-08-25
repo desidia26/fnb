@@ -89,7 +89,7 @@ deploy_remote() {
                 echo '🐳 Running deployment script...' && \
                 ./scripts/deploy.sh && \
                 echo '📊 Checking container status...' && \
-                docker-compose ps"
+                docker compose ps"
     
     # Execute deployment on remote
     if ssh "$REMOTE_HOST" "$DEPLOY_CMD"; then
