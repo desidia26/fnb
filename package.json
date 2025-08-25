@@ -13,7 +13,8 @@
     "docker:dev": "./scripts/dev.sh",
     "docker:deploy": "./scripts/deploy.sh",
     "docker:logs": "./scripts/logs.sh",
-    "docker:clean": "./scripts/clean.sh"
+    "docker:clean": "./scripts/clean.sh",
+    "remote:deploy": "./scripts/remote-deploy.sh"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^6.0.0",

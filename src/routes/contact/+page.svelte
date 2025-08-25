@@ -8,7 +8,28 @@
 
 <main class="container">
 	<h1>Join Food Not Bombs Morgantown</h1>
-	<p>Ready to get involved with our Morgantown chapter? Whether you want to volunteer at our weekly meal sharing, help with food prep, or learn more about upcoming events, we'd love to hear from you!</p>
+	<p>Ready to get involved? We meet every Saturday to recover food waste and share free vegan meals to protest war, poverty, and capitalism. All volunteers welcome!</p>
+	
+	<div class="quick-contact">
+		<h2>🚀 Quick Ways to Join</h2>
+		<div class="contact-grid">
+			<div class="contact-card">
+				<h3>📝 Volunteer Signup</h3>
+				<p>Choose your role and time slot</p>
+				<a href="https://signup.com/go/icxhiVO" target="_blank" class="btn-primary">Sign Up Now</a>
+			</div>
+			<div class="contact-card">
+				<h3>📧 Email Us</h3>
+				<p>Get added to our Signal group chat</p>
+				<a href="mailto:morgantownFNB@proton.me" class="btn-primary">Send Email</a>
+			</div>
+			<div class="contact-card">
+				<h3>📱 Follow Us</h3>
+				<p>Stay updated on Instagram</p>
+				<a href="https://instagram.com/morgantownfnb" target="_blank" class="btn-primary">@morgantownfnb</a>
+			</div>
+		</div>
+	</div>
 	
 	{#if message}
 		<div class="message {messageType}">
@@ -78,11 +99,11 @@
 				disabled={loading}
 			>
 				<option value="">Select your interest...</option>
-				<option value="meal-serving">Help with weekly meal serving (Sundays)</option>
-				<option value="food-prep">Help with food prep (Saturdays)</option>
-				<option value="food-recovery">Food recovery/pickup from businesses</option>
-				<option value="monthly-meeting">Attend monthly planning meeting</option>
-				<option value="event-info">Get updates about events and volunteer opportunities</option>
+				<option value="pickup">Pickup (Saturdays 11:45 AM - 12:00 PM)</option>
+				<option value="cooking">Cooking (Saturdays 1:00 PM - 3:45 PM)</option>
+				<option value="serving">Serving (Saturdays 4:30 PM - 6:00 PM)</option>
+				<option value="cleanup">Cleanup (Saturdays 6:30 PM - 7:15 PM)</option>
+				<option value="signal-group">Get added to Signal group chat</option>
 				<option value="new-volunteer">I'm new and want to learn more</option>
 				<option value="other">Other</option>
 			</select>
@@ -96,7 +117,7 @@
 				rows="5" 
 				required 
 				disabled={loading}
-				placeholder="Tell us about yourself, your interests, or any questions you have about Food Not Bombs..."
+				placeholder="Tell us about yourself, your availability, or any questions about volunteering. We'll get you added to our Signal group chat for coordination!"
 			></textarea>
 		</div>
 		
@@ -123,6 +144,98 @@
 		padding: 2rem;
 		font-family: var(--font-body);
 		line-height: 1.6;
+	}
+
+	.quick-contact {
+		margin: 3rem 0;
+		padding: 2rem;
+		background: var(--color-surface);
+		border-radius: 16px;
+		border: 2px solid var(--color-border);
+		box-shadow: 0 8px 30px var(--shadow-medium);
+	}
+
+	.quick-contact h2 {
+		text-align: center;
+		color: var(--color-text-primary);
+		font-family: var(--font-heading);
+		font-size: 2rem;
+		margin-bottom: 2rem;
+		border-bottom: 3px solid var(--color-accent);
+		padding-bottom: 1rem;
+	}
+
+	.contact-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1.5rem;
+	}
+
+	.contact-card {
+		background: var(--color-surface-elevated);
+		padding: 2rem;
+		border-radius: 12px;
+		border: 2px solid var(--color-border);
+		text-align: center;
+		transition: all 0.3s ease;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.contact-card::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background: linear-gradient(90deg, var(--color-accent) 0%, var(--color-accent-light) 100%);
+		opacity: 0;
+		transition: opacity 0.3s ease;
+	}
+
+	.contact-card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 12px 30px var(--shadow-medium);
+		border-color: var(--color-accent);
+	}
+
+	.contact-card:hover::before {
+		opacity: 1;
+	}
+
+	.contact-card h3 {
+		font-family: var(--font-heading);
+		color: var(--color-accent);
+		font-size: 1.3rem;
+		margin: 0 0 1rem 0;
+	}
+
+	.contact-card p {
+		color: var(--color-text-secondary);
+		margin: 0 0 1.5rem 0;
+	}
+
+	.btn-primary {
+		display: inline-block;
+		background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-hover) 100%);
+		color: var(--color-text-inverse);
+		padding: 0.75rem 1.5rem;
+		border: none;
+		border-radius: 8px;
+		font-size: 1rem;
+		font-weight: 600;
+		text-decoration: none;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		box-shadow: 0 4px 15px rgba(255, 71, 87, 0.3);
+	}
+
+	.btn-primary:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 6px 20px rgba(255, 71, 87, 0.4);
 	}
 	
 	h1 {
@@ -344,6 +457,10 @@
 	@media (max-width: 768px) {
 		.container {
 			padding: 1rem;
+		}
+		
+		.contact-grid {
+			grid-template-columns: 1fr;
 		}
 		
 		h1 {

@@ -11,69 +11,93 @@
 	</header>
 	
 	<section class="meetings-section">
-		<h2>📅 Upcoming Events</h2>
+		<h2>📅 Weekly Schedule</h2>
 		<div class="event-grid">
 			<div class="event">
-				<h3>Weekly Meal Sharing</h3>
-				<p><strong>When:</strong> Sundays at 2:00 PM</p>
-				<p><strong>Where:</strong> Downtown Morgantown (location varies)</p>
-				<p>Join us as we serve free vegan meals to our community</p>
+				<h3>🚗 Pickup</h3>
+				<p><strong>When:</strong> Saturdays 11:45 AM - 12:00 PM</p>
+				<p><strong>Where:</strong> Storage areas to Sabra United Methodist</p>
+				<p>Food pickup and drop off from designated storage areas</p>
 			</div>
 			<div class="event">
-				<h3>Volunteer Prep</h3>
-				<p><strong>When:</strong> Saturdays at 12:00 PM</p>
-				<p><strong>Where:</strong> Community Kitchen</p>
-				<p>Help us prepare meals and organize supplies</p>
+				<h3>🥄 Cooking</h3>
+				<p><strong>When:</strong> Saturdays 1:00 PM - 3:45 PM</p>
+				<p><strong>Where:</strong> Sabra United Methodist</p>
+				<p>Prepare vegan meals - alternating hot/cold during winter. Bring fun recipes!</p>
 			</div>
 			<div class="event">
-				<h3>Monthly Meeting</h3>
-				<p><strong>When:</strong> First Friday of each month, 7:00 PM</p>
-				<p><strong>Where:</strong> WVU Student Union</p>
-				<p>Planning, coordination, and new volunteer orientation</p>
+				<h3>🍽️ Serving</h3>
+				<p><strong>When:</strong> Saturdays 4:30 PM - 6:00 PM</p>
+				<p><strong>Where:</strong> Monkey Wrench Books, 214 High Street</p>
+				<p>Share free vegan meals with our community outside the bookstore</p>
+			</div>
+			<div class="event">
+				<h3>🧹 Cleanup</h3>
+				<p><strong>When:</strong> Saturdays 6:30 PM - 7:15 PM</p>
+				<p><strong>Where:</strong> Sabra United Methodist</p>
+				<p>Clean up cooking area and organize supplies for next week</p>
 			</div>
 		</div>
 	</section>
 	
 	<section class="mission-section">
 		<h2>About Our Chapter</h2>
-		<p>Food Not Bombs Morgantown is part of the global Food Not Bombs movement - an all-volunteer effort that recovers food and shares free vegan meals with the hungry to protest war, poverty, and environmental destruction.</p>
+		<p>Food Not Bombs Morgantown is part of the global Food Not Bombs movement - an all-volunteer effort that recovers food waste and gives it back to the community to protest war, poverty, and capitalism.</p>
 		
 		<div class="local-info">
 			<h3>What We Do in Morgantown</h3>
 			<ul>
-				<li><strong>Weekly Meal Sharing:</strong> Every Sunday we serve free, hot vegan meals to anyone who needs food</li>
-				<li><strong>Food Recovery:</strong> We rescue surplus food from local businesses and farmers</li>
-				<li><strong>Community Outreach:</strong> We connect with homeless services, student organizations, and community groups</li>
-				<li><strong>Activism:</strong> We participate in local social justice initiatives and awareness campaigns</li>
+				<li><strong>Weekly Meal Sharing:</strong> Every Saturday we serve free vegan meals (hot and cold alternating in winter) outside Monkey Wrench Books</li>
+				<li><strong>Food Recovery:</strong> We rescue food waste from local businesses and give it back to the community</li>
+				<li><strong>Community Building:</strong> We connect with community members and create solidarity through shared meals</li>
+				<li><strong>Activism:</strong> We protest war, poverty, and capitalism through direct action and mutual aid</li>
 			</ul>
 		</div>
 	</section>
 	
 	<section class="volunteer-section">
 		<h2>How to Volunteer</h2>
+		<p class="volunteer-intro">Join us every Saturday! No experience necessary - we'll show you the ropes. Contact us to get added to our Signal group chat for coordination.</p>
+		
+		<div class="contact-methods">
+			<div class="contact-method">
+				<h4>📧 Email</h4>
+				<p><a href="mailto:morgantownFNB@proton.me">morgantownFNB@proton.me</a></p>
+			</div>
+			<div class="contact-method">
+				<h4>📱 Instagram</h4>
+				<p><a href="https://instagram.com/morgantownfnb" target="_blank">@morgantownfnb</a></p>
+			</div>
+			<div class="contact-method">
+				<h4>📝 Quick Signup</h4>
+				<p><a href="https://signup.com/go/icxhiVO" target="_blank">Choose your volunteer role</a></p>
+			</div>
+		</div>
+		
 		<div class="volunteer-options">
 			<div class="option">
-				<h3>🥄 Meal Prep & Serving</h3>
-				<p>Help cook, serve meals, and clean up. No experience necessary!</p>
+				<h3>🚗 Pickup (11:45 AM - 12:00 PM)</h3>
+				<p>Transport food from storage areas to cooking location. Details shared in Signal group.</p>
 			</div>
 			<div class="option">
-				<h3>🚗 Food Recovery</h3>
-				<p>Pick up donated food from local businesses and farmers</p>
+				<h3>🥄 Cooking (1:00 PM - 3:45 PM)</h3>
+				<p>Prepare vegan meals at Sabra United Methodist. Bring fun recipes to try!</p>
 			</div>
 			<div class="option">
-				<h3>📋 Organization</h3>
-				<p>Help with planning, outreach, and coordinating volunteers</p>
+				<h3>🍽️ Serving (4:30 PM - 6:00 PM)</h3>
+				<p>Share meals with community outside Monkey Wrench Books downtown.</p>
 			</div>
 			<div class="option">
-				<h3>📢 Outreach</h3>
-				<p>Share information about our work and recruit new volunteers</p>
+				<h3>🧹 Cleanup (6:30 PM - 7:15 PM)</h3>
+				<p>Clean up cooking area and organize for next week. Essential community care!</p>
 			</div>
 		</div>
 	</section>
 	
 	<section class="contact-section">
-		<h2>Join Us</h2>
-		<p>New volunteers are always welcome! Whether you can spare an hour a week or want to get more involved, <a href="/contact">reach out to us</a> to learn about upcoming volunteer opportunities and meetings.</p>
+		<h2>Join Us Every Saturday!</h2>
+		<p>Come share a meal with us on Saturdays at 4:30 PM at <strong>Monkey Wrench Books</strong> (214 High Street) in downtown Morgantown! Whether you want to volunteer or just need a meal, all are welcome.</p>
+		<p>Ready to get involved? <a href="https://signup.com/go/icxhiVO" target="_blank">Sign up for a volunteer role</a>, email us at <a href="mailto:morgantownFNB@proton.me">morgantownFNB@proton.me</a>, or <a href="/contact">use our contact form</a>.</p>
 	</section>
 </main>
 
@@ -320,6 +344,53 @@
 		color: var(--color-text-secondary);
 	}
 	
+	.volunteer-intro {
+		text-align: center;
+		font-size: 1.1rem;
+		margin-bottom: 2rem;
+		color: var(--color-text-secondary);
+	}
+
+	.contact-methods {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1.5rem;
+		margin: 2rem 0;
+		padding: 1.5rem;
+		background: var(--color-surface-elevated);
+		border-radius: 12px;
+		border: 2px solid var(--color-border);
+	}
+
+	.contact-method {
+		text-align: center;
+		padding: 1rem;
+	}
+
+	.contact-method h4 {
+		font-family: var(--font-heading);
+		color: var(--color-accent);
+		font-size: 1.1rem;
+		margin: 0 0 0.5rem 0;
+	}
+
+	.contact-method p {
+		margin: 0;
+	}
+
+	.contact-method a {
+		color: var(--color-accent);
+		text-decoration: none;
+		font-weight: 600;
+		border-bottom: 2px solid transparent;
+		transition: all 0.2s ease;
+	}
+
+	.contact-method a:hover {
+		border-bottom-color: var(--color-accent);
+		color: var(--color-accent-hover);
+	}
+
 	.volunteer-options {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -407,6 +478,10 @@
 		}
 		
 		.event-grid, .volunteer-options {
+			grid-template-columns: 1fr;
+		}
+		
+		.contact-methods {
 			grid-template-columns: 1fr;
 		}
 		
