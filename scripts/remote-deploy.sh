@@ -5,7 +5,7 @@
 set -e  # Exit on any error
 
 # Configuration
-REMOTE_HOST="desidia26@192.168.40.12"
+REMOTE_HOST="desidia26@192.168.40.128"
 REMOTE_PROJECT_PATH="/home/desidia26/projects/fnb"
 BRANCH="main"
 
